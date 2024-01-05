@@ -1,0 +1,54 @@
+/* Загальний селектор */
+* {
+    color: greenyellow;
+}
+}
+
+/* За назвою тега */
+h1 {
+    color: brown;
+}
+
+
+/* За назвою тега */
+p {
+    color: slateblue;
+}
+
+/* Селектор за класом */
+.text {
+    color: fuchsia;
+}
+
+/* Селектор по деякіх класах */
+.text,
+.text1 {
+    color: olivedrab;
+}
+
+/* Селектор по ID */
+#prunk {
+    color: midnightblue;
+}
+
+/* Звернення до всіх тегів з класом worm всередині тега р */
+p .worm {
+    color: peru;
+}
+
+/* Звернення до всіх об'єктів з класом worm i paragraph */
+.worm.paragraph {
+    color: crimson;
+}
+
+/* Звернення до тега li */
+li {
+    color: fuchsia;
+}
+
+*/
+
+/* Звернення до тега ul слідуючим за тегом з класом next-text???????????????????????????????????????????????????????????????????? */
+.next-text+ul {
+    color: orange;
+}
