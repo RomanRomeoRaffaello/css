@@ -1,0 +1,122 @@
+/* Загальний селектор */
+* {
+    /* color: greenyellow; */
+}
+
+/* За назвою тега */
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: orchid;
+}
+
+h3 {
+    color: olive;
+}
+
+h4 {
+    color: rgb(114, 91, 245);
+}
+
+/* Звернення за класом */
+.last {
+    color: rgba(5, 233, 62, 0.301);
+}
+
+/* За назвою тега */
+p {
+    /* color: slateblue; */
+}
+
+/* Селектор за класом */
+
+.text {
+    /* color: fuchsia; */
+}
+
+.focus {
+    color: goldenrod;
+}
+
+.cristal {
+    color: violet;
+}
+
+.glass {
+    color: peru;
+}
+
+.acid {
+    color: lawngreen;
+}
+
+/* Селектор по деякіх класах */
+.text,
+.text1 {
+    color: rgb(233, 173, 7);
+}
+
+/* Селектор по ID */
+#prunk {
+    color: midnightblue;
+}
+
+/* Звернення до всіх тегів з класом worm всередині тега р */
+.worm {
+    color: peru;
+}
+
+/* Звернення до всіх об'єктів з класом worm i paragraph */
+.worm.paragraph {
+    color: crimson;
+}
+
+/* Звернення до тега li */
+li {
+    /* color: fuchsia; */
+}
+
+/* Звернення до всіх тегів з класом text-word2 всередині класу р */
+p .text-word2 {
+    color: darkkhaki;
+}
+
+/* Селектор по класу (для декількох класів можно використовувати) */
+.header {
+    color: firebrick;
+}
+
+/* Звернення до тегу <ul> слідуючим одразу за тегом з класом next-text */
+div.next-text>ul>li {
+    /* color: rgb(0, 17, 255); */
+}
+
+.third {
+    color: rgb(219, 19, 29);
+}
+
+header {
+    color: forestgreen;
+}
+
+ul li {
+    color: orange;
+}
+
+#prunk {
+    color: rgba(5, 233, 62, 0.301)
+}
+
+[href*=www] {
+    color: gold;
+}
+
+footer {
+    color: darkblue
+}
+
+h5 {
+    color: lime;
+}
